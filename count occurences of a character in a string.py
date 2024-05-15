@@ -23,7 +23,7 @@ Input: 'recursion', 'r'
 Output: 2
 '''
 
-#my code
+#my code, which works fine. I don't know why chatGPT says mine doesn't work when it works with their suggested inputs as well as boundary conditions like empty strings.
 def count_char(s: str, c: str) -> int:
     count = 0
     if len(s) <= 1:
